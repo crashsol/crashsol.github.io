@@ -17,3 +17,6 @@
 - 提交本次操作 git commit -m "操作描述"
 - 查看本地仓库状态 git status
 - 查看本地仓库远程是否绑定远程地址 git remote
+- 创建一个 **dev** 分支并进入
+    - git branch dev -b dev
+    - 上面一个命令等效于这两条命令： git branch dev   git checkout dev
