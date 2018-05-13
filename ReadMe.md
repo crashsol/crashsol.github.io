@@ -24,3 +24,6 @@
 - 将**dev**分支合并到**master**
     - 必须是在主分支下操作:  git checkout master
     - 将dev分支合并到master： git merge dev
+- 创建一个.gitignore 文件,在里面添加忽略上传的内容
+    - 添加忽略的**文件**: 1.txt  
+    - 添加忽略的**文件夹** /dir1
