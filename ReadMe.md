@@ -20,3 +20,7 @@
 - 创建一个 **dev** 分支并进入
     - git branch dev -b dev
     - 上面一个命令等效于这两条命令： git branch dev   git checkout dev
+    - 返回**master** 分支 git checkout master
+- 将**dev**分支合并到**master**
+    - 必须是在主分支下操作:  git checkout master
+    - 将dev分支合并到master： git merge dev
