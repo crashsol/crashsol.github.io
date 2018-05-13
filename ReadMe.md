@@ -1,6 +1,6 @@
-# 学习git 一级标题  
+# 学习git 
 
-## 初始化一个空的项目  二级标题
+## 初始化一个空的项目  
 - echo "# vuelearn" >> README.md
 - git init
 - git add README.md
@@ -8,7 +8,7 @@
 - git remote add origin https://github.com/crashsol/crashsol.github.io.git
 - git push -u origin master
 
-## 将本地仓库与远端仓库绑定 二级标题
+## 将本地仓库与远端仓库绑定 
 - git remote add origin https://github.com/crashsol/crashsol.github.io.git
 - git push -u origin master
 
@@ -27,3 +27,6 @@
 - 创建一个.gitignore 文件,在里面添加忽略上传的内容
     - 添加忽略的**文件**: 1.txt  
     - 添加忽略的**文件夹** /dir1
+---
+<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">史上最浅显易懂的Git教程(廖雪峰)</a>
+<a href="https://www.jianshu.com/p/191d1e21f7ed">MarkDown语法</a>
