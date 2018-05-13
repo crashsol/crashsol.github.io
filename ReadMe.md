@@ -27,7 +27,8 @@
 - 创建一个.gitignore 文件,在里面添加忽略上传的内容
     - 添加忽略的**文件**: 1.txt  
     - 添加忽略的**文件夹** /dir1
----
+- 克隆一个远程仓库地址
+    - git clone https://github.com/neuecc/MagicOnion.git
 ## 参考资料
 - <a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">史上最浅显易懂的Git教程(廖雪峰)</a>
 
