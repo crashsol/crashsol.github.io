@@ -1,0 +1,6 @@
+/* CSS3圆角边框 */
+div {
+  border: 2px solid;
+  border-radius: 25px;
+
+}

@@ -1,4 +1,4 @@
-# 学习git 
+# 学习Git  Gulp HTML+CSS
 
 ## 初始化一个空的项目  
 - echo "# vuelearn" >> README.md
