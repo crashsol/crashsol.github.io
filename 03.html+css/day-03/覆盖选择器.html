@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 空格 后代选择  > 子代选择器(直选最近一级)   */
+
+        div p {
+            color: red;
+        }
+
+        ul li {
+            color: red;
+        }
+
+        /* 并集选择器 用逗号隔开   */
+        h1,
+        h2 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>123</h1>
+    <h2>123</h2>
+    <h3>1231</h3>
+    <div>网址答复</div>
+    <div>网址答复</div>
+    <div>网址答复</div>
+    <div>网址答复</div>
+    <div>
+        <p>
+            crashsol
+        </p>
+    </div>
+    <p>crashsol</p>
+    <p>crashsol</p>
+    <p>crashsol</p>
+
+    <ul>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+    </ul>
+
+    <ol>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+    </ol>
+
+
+</body>
+
+</html>
