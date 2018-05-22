@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+        }
+        .tb {
+            width: 520px;
+            height: 260px;
+            margin: 50px auto;
+            position: relative;
+        }
+
+        .tb a {
+            top: 50%;
+            margin-top: -18px;
+            width: 24px;
+            height: 36px;
+        }
+
+        .left {
+            position: absolute;
+            left: 0;
+            background: url("./images/left.png");
+        }
+
+        .right {
+            position: absolute;
+            right: 0;
+            background: url("./images/right.png");
+        }
+        .tb ul {
+            width: 70px;
+            height: 13px;
+            background: rgba(255, 255, 255, 0.3);
+            position: absolute;
+            bottom: 5px;
+            left:50%; /*父容器的一般*/
+            margin-left: -35px; /*高度的一般*/
+            border-radius: 8px;
+        }
+
+        .tb ul li{
+            width: 8px;
+            height: 8px;
+            float: left;
+            background-color: #fff;
+            margin: 3px;
+            border-radius: 50%;
+            cursor: pointer;
+        }      
+       
+        .tb .current{
+            background-color: #f40;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="tb">
+        <img src="./images/taobao.jpg" alt="">
+        <a href="#" class="left"></a>
+        <a href="#" class="right"></a>
+        <ul>
+            <li class="current"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

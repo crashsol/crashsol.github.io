@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+
+        }
+        .one {
+            background-color: pink;
+            position: relative;        
+        }
+        .two{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: absolute;
+            top:50px;   
+            left: 50px;
+        }
+        .three{
+            background-color: #CCC;
+        }
+    </style>
+</head>
+<body>
+    定位口诀：子绝父相 （子元素 绝对定位，父元素：相对定位）
+    <p> 2 div 嵌套在 1div 中，1 div 设置为  
+         position: relative; 
+        2 div 会根据 1 div进行定位,
+        并且3 DIV 位置与期望一致</p>
+    <div class="one">1
+            <div class="two">2</div>
+    </div>   
+    <div class="three">
+        3
+    </div>
+</body>
+</html>
