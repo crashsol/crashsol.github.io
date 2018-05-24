@@ -1,0 +1,70 @@
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+li {
+    list-style: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+/* 顶部 start */
+.J_event{   
+    background-color: #000;
+}
+/*  */
+.J_event a{
+    height: 80px;
+    display:block;
+    position: relative;
+    background: url("../images/header.jpg") no-repeat;
+}
+
+.J_event a i{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    color: #fff;
+    top: 5px;
+    right: 0;
+    line-height: 20px;
+    font-style: normal;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.shortcut {
+    height: 30px;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #dddddd;
+    color: #9d9d9d;
+    font-size: 12px;
+    line-height: 30px;
+}
+.shortcut a {
+    display: block;
+    color: #9d9d9d;
+    font-size: 12px;  
+    text-decoration: none;  
+    margin: 0 30px;
+    background-color: rgba(0 0, 0, 0.5);
+}
+.shortcut a:hover{
+    color: red;
+}
+.shortcut .fl li{
+    margin-left: 200px;
+}
+.shortcut .fr li{   
+    float: left;
+}
