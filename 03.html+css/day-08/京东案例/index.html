@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>京东（JD.COM）- 正品低价</title>
+
+    <link rel="stylesheet" href="./fonts/iconfont.css">
     <!-- CSS 初始化 -->
     <link rel="stylesheet" href="./css/normalize.css">
     <!-- base 页面只写公共样式  头部和底部写到公共样式中-->
@@ -19,7 +21,7 @@
     <!-- 顶部活动 -->
     <div class="J_event">
         <a href="#" class="w">
-            <i> X </i>
+            <i class="iconfont icon-14CIRCLE"></i>
         </a>
     </div>
 
@@ -28,27 +30,82 @@
         <div class="w">
             <!-- 左浮 -->
             <ul class="fl">
-                <li>北京</li>
+                <li>
+                    <i class="iconfont icon-location c-red"></i> 北京</li>
             </ul>
             <!-- 右浮 -->
             <ul class="fr">
                 <li>
                     <a href="#">你好,请登录 免费注册</a>
                 </li>
+                <li class="spacer"></li>
                 <li>
                     <a href="#">我的订单</a>
                 </li>
-                <li>
+                <li class="spacer"></li>
+                <li class="dropdown">
                     <a href="#">我的京东</a>
+                    <i class="iconfont  icon-xia"></i>
                 </li>
-                <li>
-                    <a href="#">企业为我</a>
+                <li class="spacer"></li>
+                <li class="dropdown">
+                    <a href="#">企业采购</a>
+                    <i class="iconfont  icon-xia"></i>
                 </li>
-
-                <li>
-                    <a href="#">的免费注册</a>
+                <li class="spacer"></li>
+                <li class="dropdown" style="position: relative;">
+                    <a href="#">客服服务</a>
+                    <i class="iconfont  icon-xia"></i>
+                    <div class="erweima">
+                        <img src="./images/mobile.png" alt="">
+                    </div>
                 </li>
             </ul>
+        </div>
+    </div>
+
+    <!-- header部分 -->
+    <div class="header">
+        <div class="w inner">
+            <!-- logo部分 -->
+            <div class="logo">
+                <h1>
+                    <a href="#" title="京东网">
+                        京东
+                    </a>
+                </h1>
+            </div>
+            <!-- 搜索部分 -->
+            <div class="search">
+                <input type="text" value="微单相机">
+                <button>
+                    <i class="iconfont icon-peizhiguanli"></i>
+                </button>
+                <em></em>
+            </div>
+            <!-- 热词部分 -->
+            <div class="hotwords">
+                <a href="#" class="c-red">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+                <a href="#">123123</a>
+            </div>
+            <!-- 购物车 -->
+            <div class="car">
+                <i class="iconfont icon-location c-red"></i>
+                <a href="#">我的购物车</a>
+                <span class="count">1</span>
+            </div>
+            <!-- 电脑广告 -->
+            <div class="computer">
+                <a href="#">
+                    <img src="./images/super.png" alt="">
+                </a>
+            </div>
         </div>
     </div>
 
