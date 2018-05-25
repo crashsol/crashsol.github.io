@@ -1,5 +1,8 @@
 /* 右浮动 */
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .fr {
     float: right;
 }
@@ -18,7 +21,9 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+h1,p,h5{
+    margin: 0;  
+}
 /* 版心 */
 
 .w {
@@ -286,4 +291,95 @@ button {
     margin-top: 15px;
     margin-right: -10px;
     margin-left: 20px;
+}
+
+/* 页脚 */
+
+.footer {
+    height: 560px;
+    background-color: #EAEAEA;
+}
+
+.footer-service {
+    height: 100px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.footer-service-inner {
+    padding: 30px 0px; 
+    overflow: hidden;
+   
+}
+
+.footer-service-inner ul li {
+    float: left;
+    height: 42px;
+    width: 297px;   
+}
+
+.service-unit{
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;  
+    position: relative;
+}
+
+.service-unit h5{
+    width: 36px;
+    height: 42px;
+    background: url(../images/ico.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-indent: -2em;
+    overflow: hidden;
+}
+
+.service-unit p{
+    line-height: 42px;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.service-unit .kuai{
+    background-position: 0px -43px;
+}
+
+.service-unit .hao{
+    background-position: 0px -86px;
+}
+
+.service-unit .sheng{
+    background-position: 0px -129px;
+}
+
+.help{
+    height: 180px;
+    background-color: pink;
+    padding-top: 20px;
+}
+.help dl{
+    float: left;
+    width: 198px;
+}
+.help dt {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    height: 30px;
+  
+}
+.help dd{
+    height: 22px;
+    text-decoration: none;
+}
+.help dd a{
+    color:#727272;
+    font-size: 12px;    
+    text-decoration: none;
+
+}
+.help dd a:hover{
+    color: #f10215;
 }
