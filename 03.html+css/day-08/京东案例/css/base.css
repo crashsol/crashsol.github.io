@@ -1,8 +1,10 @@
 /* 右浮动 */
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 .fr {
     float: right;
 }
@@ -21,9 +23,13 @@ ul {
     margin: 0;
     padding: 0;
 }
-h1,p,h5{
-    margin: 0;  
+
+h1,
+p,
+h5 {
+    margin: 0;
 }
+
 /* 版心 */
 
 .w {
@@ -306,25 +312,24 @@ button {
 }
 
 .footer-service-inner {
-    padding: 30px 0px; 
+    padding: 30px 0px;
     overflow: hidden;
-   
 }
 
 .footer-service-inner ul li {
     float: left;
     height: 42px;
-    width: 297px;   
+    width: 297px;
 }
 
-.service-unit{
+.service-unit {
     width: 225px;
     height: 42px;
-    margin: 0 auto;  
+    margin: 0 auto;
     position: relative;
 }
 
-.service-unit h5{
+.service-unit h5 {
     width: 36px;
     height: 42px;
     background: url(../images/ico.png) no-repeat;
@@ -335,51 +340,119 @@ button {
     overflow: hidden;
 }
 
-.service-unit p{
+.service-unit p {
     line-height: 42px;
     margin-left: 45px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.service-unit .kuai{
+.service-unit .kuai {
     background-position: 0px -43px;
 }
 
-.service-unit .hao{
+.service-unit .hao {
     background-position: 0px -86px;
 }
 
-.service-unit .sheng{
+.service-unit .sheng {
     background-position: 0px -129px;
 }
 
-.help{
+.help {
     height: 180px;
-    background-color: pink;
     padding-top: 20px;
 }
-.help dl{
+
+.help dl {
     float: left;
-    width: 198px;
+    width: 195px;
 }
+
 .help dt {
     font-size: 14px;
     font-weight: bold;
     color: #666;
     height: 30px;
-  
 }
-.help dd{
+
+.help dd {
     height: 22px;
     text-decoration: none;
 }
-.help dd a{
-    color:#727272;
-    font-size: 12px;    
-    text-decoration: none;
 
+.help dd a {
+    color: #727272;
+    font-size: 12px;
+    text-decoration: none;
 }
-.help dd a:hover{
+
+.help dd a:hover {
     color: #f10215;
+}
+
+.help .cover {
+    float: right;
+    font-size: 12px;
+    width: 207px;
+    height: 150px;
+    background: url(../images/ico_footer.png) no-repeat;
+}
+
+.cover dt {
+    text-align: center;
+}
+
+.cover .info {
+    width: 175px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 16px;
+    color: #727272;
+}
+
+.cover .more {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.copyright {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: #727272;
+    font-size: 12px;
+}
+
+.links span {
+    font-size: 12px;
+    padding: 0 6px;
+    color: #D4D4D4;
+}
+
+.c-info {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.tupian {
+    margin: 10px 0 0 ;
+    text-align: center;
+}
+.tupian  a {   
+    height: 32px;
+    width: 103px;
+    display: inline-block;
+    background: url(../images/ico_footer.png) no-repeat 0 -151px;   
+}
+.tupian  .tp2{
+    background-position: -104px -151px;
 }
