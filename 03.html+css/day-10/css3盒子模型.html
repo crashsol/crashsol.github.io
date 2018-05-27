@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*css2 盒子， padding  border 都要增加盒子的大小*/
+        div {
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            padding: 50px 50px;
+            border: 10px solid red;
+        }
+
+        /*css3 的盒子模型， padding 和border 都在内减*/
+
+        .css3{
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            padding: 10px 10px;
+            border: 10px solid red;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    
+    <div></div>
+
+    <div class="css3"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, delectus aspernatur incidunt omnis, amet fugit quam maxime animi nihil, eos molestiae! Sunt exercitationem aperiam tempore, minima atque dolorem illo veniam.</p></div>
+</body>
+</html>

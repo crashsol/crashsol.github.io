@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 790px;
+            height: 340px;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /*伪元素 没有内容，必须给宽高*/
+        div:hover::after {
+            content: "";
+            width: 100%;
+            height: 100%;
+            border: 20px solid rgba(226, 21, 21, 0.3);
+            position: absolute;
+            top: 0;
+            left: 0;
+            box-sizing: border-box;
+            /* CSS3 盒子模型*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img src="./images/banner.jpg" alt="">
+    </div>
+
+</body>
+
+</html>

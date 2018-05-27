@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*在div里面的 内容前面 放入该盒子（行内盒子）*/
+        div::before {
+            /*伪元素必须带 content 属性*/
+            content: "ddd"
+        }
+
+        /*在div里面的 内容后面 放入该盒子(行内盒子)*/
+        div::after {
+            content: "，哈哈哈！";
+        /* display: block;*/
+         
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>今年</div>
+
+</body>
+
+</html>

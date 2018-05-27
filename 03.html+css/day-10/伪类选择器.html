@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        /* li 的第一个元素
+
+        li:first-child {
+            background-color: red;
+        }*/
+
+        /* li 的最后一个元素
+
+        li:last-child {
+            background-color: #ccc;
+        }*/
+
+        /*选中所有
+        li:nth-child(n) {
+            background-color: red;
+        }*/
+
+        /*偶数项  even
+        li:nth-child(2n) {
+            background-color: skyblue;
+        } */
+
+        li:nth-child(even) {
+            background-color: skyblue;
+        }
+
+
+         /*奇数项  odd 2n-1
+        li:nth-child(odd) {
+            background-color: red;
+        }*/
+       
+        li:nth-child(2n-1) {
+            background-color: red;
+        } 
+
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+        <li>123</li>
+    </ul>
+
+</body>
+
+</html>

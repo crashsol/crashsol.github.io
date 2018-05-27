@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            margin-top: 10px;
+        }
+
+        /*带有class 就会被选择*/
+        div[class] {
+            background-color: red;
+        }
+
+        /*类名等于 demo*/
+        div[class=demo1] {
+            background-color: purple;
+        }
+
+        /*以 demo 开头的 */
+        div[class^=demo] {
+            background: #eeeeee;
+        }
+
+        /*以 demo 结尾的 */
+        div[class$=demo] {
+            background-color: skyblue;
+        }
+      /*以 ^ 表示开始  $表示结尾 */
+
+    </style>
+</head>
+
+<body>
+
+    <div class="demo1">1</div>
+    <div class="demo2">1</div>
+    <div class="demo3">1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div>1</div>
+    <div class="ccdemo">1</div>
+    <div class="bbdemo">1</div>
+    <div class="aademo">1</div>
+
+</body>
+
+</html>
